@@ -49,6 +49,8 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>chat-service-docker</finalName>
+		
 	</build>
 
 </project>
