@@ -11,6 +11,6 @@ RUN mvn clean package -DskipTests
 #
 
 FROM openjdk:8
-EXPOSE 9090
+EXPOSE 8080
 COPY --from=build /target/chat-service-docker.jar chat-service-docker.jar
 ENTRYPOINT [ "java","-jar","chat-service-docker.jar" ]
