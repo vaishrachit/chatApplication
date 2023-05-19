@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.involveininnovation</groupId>
-	<artifactId>chat</artifactId>
+	<artifactId>chat-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>chat</name>
 	<description>Spring Websocket</description>
